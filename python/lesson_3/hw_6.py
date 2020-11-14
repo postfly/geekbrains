@@ -1,5 +1,5 @@
 def int_func(arg):
-    result = arg.title()
+    result = arg.capitalize()
     return result
 
 
