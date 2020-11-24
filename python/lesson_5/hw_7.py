@@ -14,8 +14,6 @@ if n > 0:
     average_profit = summa / n
 else:
     average_profit = 0
-# result.append(my_dict)
-# result.append({'average_profit': average_profit})
 result = [my_dict, {'average_profit': average_profit}]
 print(result)
 
