@@ -8,8 +8,8 @@ class Road:
 
     def asphalt_mass(self):
         asphalt_mass = self._length * self._width * self.weight * self.height / 1000
-        print(f'Для покрытия всего дорожного полотна неободимо {asphalt_mass} тонн асфальта')
+        return asphalt_mass
 
 
 r = Road(5000, 20)
-r.asphalt_mass()
+print(f'Для покрытия всего дорожного полотна неободимо {r.asphalt_mass()} тонн асфальта')
